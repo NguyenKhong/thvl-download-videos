@@ -21,7 +21,7 @@ Tải phim từ trang thvli.vn
 	Streamlink.bat --ringbuffer-size=64M -o <tên video.ts> <url phim> best
 	Streamlink.bat --ringbuffer-size=64M -o tap5.ts https://www.thvli.vn/detail/ngam-ngui/47891aec-0054-4469-9292-c238d94cbdd6 best
 	```
-Với best là chất lượng video cao nhất.
+	Với best là chất lượng video cao nhất.
 
 ### Hỗ trợ nền tảng
 * [x] windows
