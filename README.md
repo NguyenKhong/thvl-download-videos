@@ -3,7 +3,7 @@ Tải phim từ trang thvli.vn
 
 ## Hướng dẫn sử dụng
 - Cài đặt streamlink từ trang chủ, lựa chọn bản portable [https://streamlink.github.io/install.html#windows-portable-version](https://streamlink.github.io/install.html#windows-portable-version)
-- Sao chép tập tin ***thvl.py** vào thư **mục streamlink\plugins**
+- Sao chép tập tin **thvl.py** vào thư **mục streamlink\plugins**
 - Sao chép tập tin **playlist_download.py** vào thư mục gốc (thư mục có tập tin **streamlink.bat**)
 - Mở cmd hoặc powershell và chạy lệnh sau:
 `.\python\python.exe playlist_download.py`
