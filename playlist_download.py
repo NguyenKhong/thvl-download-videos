@@ -28,7 +28,7 @@ def scanFFmpeg():
         raise Exception("ffmpeg file not found")
 
 def downloader(url, file):
-    args = ["Streamlink.bat", "--http-timeout", "60", "--hls-segment-timeout", "60", "--ringbuffer-size", "64M", "--player-no-close", "--player", FFMPEG, "-a", '-i {filename} -y -c copy -bsf:a aac_adtstoasc "%s"' % file, "--fifo", "--hls-segment-threads", "6", "--http-header", 'User-Agent="%s"' % HEADERS["User-Agent"], url, "720p"]
+    args = ["Streamlink.bat", "--http-timeout", "60", "--hls-segment-timeout", "60", "--ringbuffer-size", "64M", "--player-no-close", "--player", FFMPEG, "-a", '-i {filename} -y -c copy -bsf:a aac_adtstoasc "%s"' % file, "--fifo", "--hls-segment-threads", "6", "--http-header", 'User-Agent="%s"' % HEADERS["User-Agent"], url, "best"]
     p = subprocess.Popen(args)
     p.wait()
 
